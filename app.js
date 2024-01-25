@@ -71,6 +71,9 @@ function play() {
   while (playerScore < 5 && computerScore < 5) {
     let player = prompt("What do you wanna play bro?");
     player = player.toLowerCase();
+    if (player != "scissors" && player != "rock" && player != "paper") {
+      alert("Nah bro you have to play either rock, paper, or scissors");
+    }
     // if (player != "rock" || player != "scissors" || player != "paper") {
     //   player = prompt("That's not a valid choice, bro. Please try again");
     // }
