@@ -1,0 +1,52 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  padding: 10%;
+}
+
+.main_titleBlock {
+  text-align: center;
+}
+
+.main_title {
+  font-size: clamp(50px, 7vw, 120px);
+  letter-spacing: -3px;
+  color: #151515;
+}
+
+.main_subtitle {
+  font-size: clamp(24px, 5vw, 48px);
+  color: #252525;
+  padding-top: 40px;
+}
+
+.main_btnContainer {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.main_resetBtnContainer {
+  display: none;
+  justify-content: center;
+  gap: 16px;
+  padding-top: 40px;
+}
+
+.main_scoreOutput {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 24px;
+  padding-top: 24px;
+}
+
+.main_scoreOutput_flex {
+  display: flex;
+  gap: 10px;
+}
